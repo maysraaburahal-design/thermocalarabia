@@ -91,6 +91,11 @@
         }
         .hero-slides { position: absolute; inset: 0; z-index: 0; }
         .hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1.5s ease-in-out; background-size: cover; background-position: center; }
+        .hero-slide:nth-child(2) {
+         background-image: url('slider2-bg.webp');
+         background-size: cover;
+         background-position: center;
+        }
         .hero-slide.active { opacity: 1; }
         .hero-slide::after { content: ''; position: absolute; inset: 0; background: rgba(26,39,68,0.82); }
         .hero .container { position: relative; z-index: 2; }
